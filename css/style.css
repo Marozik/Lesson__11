@@ -1,0 +1,755 @@
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+}
+/* __________________ SKY ______________________*/
+.sky {
+	max-height: 400px;
+	background: linear-gradient(to bottom, #2A55E4 0%, #C6F6FF 100%);
+}
+.sun {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #fff900;
+	background: -webkit-radial-gradient(circle, #fff900 0%, #f7b04f 100%);
+	background: radial-gradient(circle, #fff900 0%, #f7b04f 100%);
+	box-shadow: 0px 0px 15px 8px rgb(254 227 49 / 47%);
+	position: relative;
+	top: 40px;
+	left: 13%;
+}
+.clouds {
+	min-height: 400px;
+}
+.clouds__cloud-small {
+	position: relative;
+	top: 20px;
+	left: 15%;
+}
+.cloud-small__part-1 {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.cloud-small__part-2 {
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+	position: absolute;
+	top: -25px;
+	left: 15px;
+	box-shadow: inset 9px 0px 23px -10px rgb(0 116 255 / 38%);
+}
+.cloud-small__part-3 {
+	width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+	position: absolute;
+	top: -45px;
+	left: 40px;
+	z-index: 2;
+}
+.cloud-small__part-4 {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+	position: absolute;
+	top: -25px;
+	left: 100px;
+	z-index: 1;
+	box-shadow: inset 9px 0px 23px -10px rgb(0 116 255 / 38%);
+}
+.cloud-small--position {
+	position: relative;
+	top: 200px;
+	left: 60%;
+}
+.clouds__cloud-big {
+	position: relative;
+	top: 25px;
+	left: 5%;
+}
+.cloud-big__part-1 {
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 55px;
+}
+.cloud-big__part-2 {
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+	background-color: white;
+	box-shadow: inset 9px 0px 23px -10px rgb(0 116 255 / 38%);
+	position: absolute;
+	top: 0px;
+	left: 00px;
+}
+.cloud-big__part-3 {
+	width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+	position: absolute;
+	top: 30px;
+	left: 60px;
+}
+.cloud-big__part-4 {
+	width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+	box-shadow: inset 9px 0px 23px -10px rgb(0 116 255 / 38%);
+	position: absolute;
+	top: 25px;
+	left: -30px;
+}
+.cloud-big--position {
+	position: relative;
+	top: -20px;
+	left: 80%;
+}
+.birds {
+	min-width: 100px;
+	min-height: 100px;
+	position: relative;
+	top: -190px;
+	left: 60%;
+	z-index: 20;
+}
+.bird__item-1 {
+	width: 5px;
+    height: 5px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 4% 96% 0% 100% / 0% 100% 0% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bird__item-2 {
+	width: 5px;
+    height: 5px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+	position: absolute;
+	top: 0;
+	left: 5px;
+}
+.bird--position-1 {
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+.bird--position-2 {
+	position: relative;
+	top: 20px;
+	left: 12px;
+}
+.bird--position-3 {
+	position: relative;
+	top: 10px;
+	left: 5px;
+}
+.bird--position-4 {
+	position: relative;
+	top: 30px;
+	left: 0px;
+}
+.bird--position-5 {
+	position: relative;
+	top: 25px;
+	left: -15px;
+}
+.bird--position-6 {
+	position: relative;
+	top: 20px;
+	left: -30px;
+}
+.bird--position-7 {
+	position: relative;
+	top: -5px;
+	left: -5px;
+}
+
+/*______________________ FIELDS _____________________*/
+
+
+.fields__yellow {
+	height: 300px;
+	min-width: 100px;
+	border-radius: 0% 100% 25% 25% / 0% 100% 0% 0%;
+	background: #FF9B00;
+	background: -moz-linear-gradient(top, #FF9B00 0%, #FFD30A 54%, #FFDE08 100%);
+	background: -webkit-linear-gradient(top, #FF9B00 0%, #FFD30A 54%, #FFDE08 100%);
+	background: linear-gradient(to bottom, #FF9B00 0%, #FFD30A 54%, #FFDE08 100%);
+	position: relative;
+	top: -30px;
+	left: 0;
+	z-index: 5;
+}
+.ear--position-1 {
+	position: absolute;
+	top: 25px;
+	left: 5%;
+}
+.ear--position-2 {
+	position: absolute;
+	top: 25px;
+	left: 20%;
+}
+.ear--position-3 {
+	position: absolute;
+	top: 25px;
+	left: 35%;
+}
+.ear--position-4 {
+	position: absolute;
+	top: 180px;
+	left: 13%;
+}
+.ear--position-5 {
+	position: absolute;
+	top: 180px;
+	left: 28%;
+}
+.ear--position-6 {
+	position: absolute;
+	top: 180px;
+	left: 43%;
+}
+.ear--position-7 {
+	position: absolute;
+	top: 180px;
+	left: 58%;
+}
+.ear__top {
+	width: 1px;
+    height: 15px;
+    background-color: #D47D20;
+	position: relative;
+	left: 9px;
+}
+.ear__top::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -3px;
+	width: 1px;
+    height: 15px;
+    background-color: #D47D20;
+}
+.ear__top::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 3px;
+	width: 1px;
+    height: 15px;
+    background-color: #D47D20;
+}
+.ear__item-1,
+.ear__item-2,
+.ear__item-3,
+.ear__item-4,
+.ear__item-5,
+.ear__item-6,
+.ear__item-7 {
+	width: 9px;
+    height: 9px;
+    background-color: transparent;
+    border-radius: 4% 96% 0% 100% / 0% 100% 0% 100%;
+	border: 1px solid #D47D20;
+	position: relative;
+}
+.ear__item-1::after,
+.ear__item-2::after,
+.ear__item-3::after,
+.ear__item-4::after,
+.ear__item-5::after,
+.ear__item-6::after,
+.ear__item-7::after  {
+	content: '';
+	width: 9px;
+    height: 9px;
+	position: absolute;
+	top: -1px;
+	left: 9px;
+	border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
+	background-color: transparent;
+	border: 1px solid #D47D20;
+}
+.ear__bottom {
+	width: 2px;
+    height: 25px;
+    background-color: #D47D20;
+	position: relative;
+	left: 9px;
+	top: 2px;
+}
+.fields__green {
+	height: 300px;
+	min-width: 100px;
+	border-radius: 75% 0% 25% 25% / 67% 0% 0% 0%;
+	background: #56AB04;
+	background: -moz-linear-gradient(45deg, #56AB04 0%, #36890A 63%, #00510B 100%);
+	background: -webkit-linear-gradient(45deg, #56AB04 0%, #36890A 63%, #00510B 100%);
+	background: linear-gradient(45deg, #56AB04 0%, #36890A 63%, #00510B 100%);
+	position: relative;
+	top: -330px;
+	right: 0;
+}
+.green-field__tree--position-1 {
+	position: absolute;
+	top: -40px;
+	right: 15%;
+	z-index: 10;
+}
+.green-field__tree--position-2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 10;
+}
+.tree__body {
+	width: 15px;
+	height: 60px;
+	background-color: #4F0000;
+}
+.tree__item {
+	position: relative;
+	top: -110px;
+	right: 30px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: green;
+}
+
+
+/*________________ ROAD ____________________*/
+
+.road {
+	width: 100%;
+	height: 300px;
+	background-color: #696869;
+	position: absolute;
+	bottom: 190px;
+	left: 0;
+}
+.road__line-top {
+	height: 40px;
+	width: 100%;
+	background-color: #8b8a8b;
+}
+.road__line-white {
+	height: 20px;
+	width: 100%;
+	background-color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 0;
+}
+.road__line-bottom {
+	height: 60px;
+	width: 100%;
+	background-color: #8b8a8b;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+/*______________ TRACTOR ________________*/
+.tractor {
+	position: absolute;
+	top: 540px;
+	left: 10%;
+	z-index: 20;
+}
+.tractor__cabin {
+	position: relative;
+}
+.cabin__light {
+	width: 25px;
+    height: 25px;
+    background: #ff9c00;
+    background: -webkit-linear-gradient(281deg, #ff9c00 0%, #ff4200 100%);
+    background: linear-gradient(281deg, #ff9c00 0%, #ff4200 100%);
+    position: absolute;
+    top: 5px;
+    left: 60px;
+    border-radius: 49% 51% 0% 0% / 43% 44% 23% 23%;
+}
+.cabin__top {
+	position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 120px;
+    height: 15px;
+    background-color: #0A840B;
+}
+.cabin__left-top{
+	width: 30px;
+    height: 18px;
+    background-color: #0A840B;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    border-radius: 25% 25% 0% 100% / 0% 0% 25% 100%;
+}
+.cabin__right-top {
+	width: 30px;
+    height: 13px;
+    background-color: #0A840B;
+    position: absolute;
+    top: 30px;
+    left: 140px;
+    border-radius: 25% 25% 100% 0% / 0% 0% 100% 0%;
+}
+.cabin__front-glass {
+	position: absolute;
+	top: 40px;
+	left: 145px;
+	width: 15px;
+    height: 100px;
+    background-color: #0A840B;
+    border-radius: 0% 25% 14% 0% / 43% 50% 50% 34%;
+}
+.cabin__back-glass {
+	position: absolute;
+    top: 40px;
+    left: 10px;
+	width: 20px;
+    height: 100px;
+    background-color: #0A840B;
+    border-radius: 62% 24% 1% 0% / 14% 0% 22% 58%;
+}
+.cabin__bottom {
+	width: 75px;
+    height: 40px;
+    position: absolute;
+    top: 110px;
+    left: 29px;
+    border-radius: 0% 100% 0% 0% / 0% 100% 0% 25%;
+    border-top: 1px solid #ffff;
+    background-color: #0A840B;
+	z-index: 10;
+}
+.cabin__seet {
+	width: 20px;
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    background-color: #000;
+    border-radius: 0% 100% 24% 25% / 67% 100% 0% 0%;
+}
+.cabin__pipe {
+	width: 25px;
+    height: 60px;
+    position: absolute;
+	top: 80px;
+	left: 190px;
+	z-index: 10;
+    background-color: #000;
+    border-radius: 49% 51% 0% 0% / 14% 14% 22% 22%;
+}
+.cabin__decor {
+	position: absolute;
+	top: -30px;
+	left: 7px;
+	width: 7px;
+    height: 35px;
+    background-color: #000;
+    border-radius: 0% 100% 0% 0% / 0% 78% 22% 22%;
+}
+.body-tractor {
+	width: 350px;
+    height: 150px;
+    background-color: #0A840B;
+    position: relative;
+    top: 138px;
+    left: 10px;
+    border-radius: 0% 57% 6% 0% / 50% 29% 70% 50%;
+    overflow: hidden;
+}
+.ukraine {
+	position: absolute;
+	top: 25px;
+	right: 50px;
+}
+.ukraine__blue {
+	width: 30px;
+	height: 10px;
+	background-color: #2A55E4;
+}
+.ukraine__yellow {
+	width: 30px;
+	height: 10px;
+	background-color: #f2fa13;
+}
+.body-tractor::before {
+	content: '';
+    position: absolute;
+    bottom: -70px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #696869;
+}
+.body-tractor::after {
+	content: '';
+    position: absolute;
+    bottom: -75px;
+    right: -20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #696869;
+}
+.body-tractor__front-light {
+	width: 28px;
+    height: 30px;
+    background-color: #000;
+    position: absolute;
+    top: 33px;
+    right: 0;
+    border-radius: 49% 51% 45% 55% / 51% 0% 0% 49%;
+    border-top: 2px solid #ffff;
+    border-left: 2px solid #ffff;
+    border-bottom: 2px solid #ffff;
+    z-index: 15;
+}
+.body-tractor__back-light {
+	width: 15px;
+    height: 30px;
+    background-color: #ff4200;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0% 55% 47% 0% / 25% 47% 53% 25%;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    z-index: 15;
+}
+.lines {
+	position: absolute;
+    top: 20px;
+    left: 175px;
+}
+.lines__item {
+	width: 55px;
+    height: 5px;
+    background-color: #ffff;
+    border-radius: 7% 9% 9% 8% / 52% 50% 50% 48%;
+}
+.lines__item:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.body-tractor__step {
+	width: 30px;
+    height: 17px;
+    background-color: #ffff;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 49% 51% 0% 0% / 75% 75% 25% 25%;
+    border-top: 3px solid #000;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    bottom: 15px;
+    left: 170px;
+    z-index: 10;
+}
+
+.big-wheel {
+	width: 170px;
+    height: 170px;
+    position: relative;
+    top: 30px;
+    left: -28px;
+    background-color: #000;
+    border-radius: 50%;
+    outline: 9px dashed #000;
+}
+.big-wheel::before {
+	content: '';
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+.big-wheel::after {
+	content: '';
+    position: absolute;
+    top: 65px;
+    left: 65px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.small-wheel {
+	width: 110px;
+    height: 110px;
+    position: relative;
+    top: -85px;
+    left: 250px;
+    background-color: #000;
+    border-radius: 50%;
+    outline: 9px dashed #000;
+}
+.small-wheel::before {
+	content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+.small-wheel::after {
+	content: '';
+    position: absolute;
+    top: 42px;
+    left: 42px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+/*______________ GRASS ________________*/
+.grass {
+	min-height: 130px;
+	width: 100%;
+    background-color: #B1D11B;
+	position: relative;
+	bottom: 40px;
+	left: 0;
+}
+.flower {
+	position: relative;
+}
+.flower__item-1 {
+	position: absolute;
+	top: 18px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #ffff;
+}
+.flower__item-2 {
+	position: absolute;
+	top: -18px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #ffff;
+}
+.flower__item-3 {
+	position: absolute;
+	top: 0;
+	left: 18px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #ffff;
+}
+.flower__item-4 {
+	position: absolute;
+	top: 0;
+	left: -18px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #ffff;
+}
+.flower__center {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #fff900;
+}
+.flower--position-1 {
+	top: 20px;
+	left: 30%;
+}
+.flower--position-2 {
+	top: 50px;
+	left: 10%;
+}
+.flower--position-3 {
+	top: 80px;
+	left: 90%;
+}
+.flower--position-4 {
+	top: 45px;
+	left: 70%;
+}
+.plant {
+	position: relative;
+	width: 150px;
+	height: 50px;
+	overflow: hidden;
+}
+.plant__item-1 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #00510B;
+}
+.plant__item-2 {
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: 100px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #00510B;
+}
+.plant__item-3 {
+	position: absolute;
+	top: 10px;
+	left: 80px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #00510B;
+}
+.plant--position-1 {
+	top: 20px;
+	left: 80%;
+}
+.plant--position-2 {
+	bottom: 0;
+	left: 50%;
+}
+.plant--position-3 {
+	top: -10px;
+	left: 10%;
+}
